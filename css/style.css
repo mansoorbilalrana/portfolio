@@ -62,7 +62,8 @@ header {
 .column_3 {
     width: 24%;
     border: 1px solid #e6e6e6;
-    float: left;
+	float: left;
+	border-radius: 10px;
     text-align: center;
     margin: 0 4px;
 }
@@ -77,6 +78,12 @@ img {
 .first_section {
 	width: 40%;
 	float: left;
+}
+
+
+.card_img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .summary {
